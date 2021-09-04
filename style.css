@@ -232,6 +232,14 @@ nav.page-navigation .current a {
   padding-top: 0.5em;
 }
 
+.achieverimages{
+ height: 85%;
+}
+
+.medicalpre{
+  height: 85%;
+}
+
 img {
   width: 100%;
 }
@@ -322,6 +330,10 @@ hr {
   cursor: ns-resize;
 }
 
+figcaption{
+  font-size: .7em;
+}
+
 #inwaves {
   height: 100vh;
   margin: 0;
@@ -362,6 +374,11 @@ figcaption {
   line-height: 0.9em;
 }
 
+.writing_title {
+  text-align: center;
+  font-size: .85em;
+}
+
 #inconsistency_text {
   padding: 1em;
   padding-top: 2em;
@@ -385,7 +402,6 @@ figcaption {
 
 /*--------------------*/
 
-/*remove this and add own media query for responsive mobile*/
 
 /*START MEDIA QUERY*/
 @media only screen and (max-width: 600px) {
@@ -480,10 +496,17 @@ figcaption {
     margin-top: 1.5em;
     font-size: 0.6em;
   }
+  
   #influense_content {
     height: auto;
     width: 90vw;
   }
+
+  #writing_content {
+    height: auto;
+    width: 90vw;
+  }
+
   #inwaves {
     height: auto;
   }
@@ -521,6 +544,8 @@ figcaption {
     z-index: 100;
   }
 
+
+
   /* Bottom Footer Start */
   #bottomnav {
     display: none;
@@ -535,7 +560,8 @@ figcaption {
   }
   /* Bottom Footer End */
   #writing_content {
-    height: 200px;
+    height: 100%;
+    /*height: 200px;*/
   }
 
   /* my styles End*/
