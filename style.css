@@ -232,6 +232,17 @@ nav.page-navigation .current a {
   padding-top: 0.5em;
 }
 
+.conditionalimages{
+  width: 60%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  overflow-x: scroll;
+  overflow-y: none;
+  height: 97.5vh;
+  cursor: ns-resize;
+  padding-top: 0.5em;
+}
+
 .achieverimages{
  height: 85%;
 }
