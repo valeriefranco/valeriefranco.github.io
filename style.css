@@ -243,6 +243,17 @@ nav.page-navigation .current a {
   padding-top: 0.5em;
 }
 
+.keystone_images{
+  width: 60%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  overflow-x: scroll;
+  overflow-y: none;
+  height: 97.5vh;
+  cursor: ns-resize;
+  padding-top: 0.5em;
+}
+
 .achieverimages{
  height: 85%;
 }
@@ -308,6 +319,13 @@ pre {
 }
 
 #conditional_text {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: serif;
+  font-size: 0.8em;
+}
+.keystone_pre {
+    height: 85%;
   padding-top: 1em;
   padding-bottom: 1em;
   font-family: serif;
@@ -502,10 +520,23 @@ figcaption {
   #conditional_text {
     font-weight: 600;
   }
+  /*.keystone_pre{
+    font-weight:600;
+  }*/
 
   .noFlexSpecs {
     margin-top: 1.5em;
     font-size: 0.6em;
+  }
+
+ .keystone_pre{
+    font-size: 1.2em;
+    height: auto;
+  }
+
+  .keystone_images{
+    height: auto; 
+    width:90vw;
   }
   
   #influense_content {
@@ -521,6 +552,7 @@ figcaption {
   #inwaves {
     height: auto;
   }
+
   #endless_text {
     color: black;
   }
